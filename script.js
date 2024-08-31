@@ -1,6 +1,7 @@
 function convert(){
-    const inputValue = parseFloat(document.getElementById=("userInput").value);
-    const unit = document.getElementById=("unit").value;
+    const inputValue = document.getElementById=("userInput.value");
+    const unit = document.getElementById=("unit.value");
+    console.log(unit);
     const milesToKm = unit === "milesToKm";
     let result = 0;
     if(milesToKm === true){
